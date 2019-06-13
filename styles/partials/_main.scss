@@ -1,0 +1,45 @@
+main {
+    background: lightcyan;
+}
+
+h2 {
+    margin: 0;
+    padding: 50px 150px;
+    font-size: 36px;
+}
+
+.bottles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.reason img {
+    display: block;
+    width: 75%;
+}
+
+.reason {
+    position: relative;
+}
+
+.open {
+    position: absolute;
+    top: 0;
+	left: 0;
+	bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.closed {
+    z-index: 2;
+}
+
+// .open:hover{
+//      z-index:2;
+//  }
+
+//  .closed:hover {
+//      z-index: 1;
+//  }
